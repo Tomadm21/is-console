@@ -9,9 +9,9 @@ Impressum-Scraper Standalone für deutsche B2B-Lead-Generierung.
 
 ## Installation (macOS)
 
-1. **Download (oben unter "Releases")**
-   - `IS-Console-0.1.1-arm64.dmg` (Apple Silicon, M1/M2/M3/M4)
-   - `IS-Console-0.1.1-x64.dmg` (Intel-Macs)
+1. **Download** [aus dem latest-Release](https://github.com/Tomadm21/is-console/releases/latest):
+   - `IS-Console-0.1.2-arm64.dmg` (Apple Silicon, M1/M2/M3/M4)
+   - `IS-Console-0.1.2-x64.dmg` (Intel-Macs)
    - `Setup.command`
 2. **DMG öffnen, App in Programme-Ordner ziehen**
 3. **Setup.command doppelklicken** (Terminal öffnet sich, installiert Python/Node/Claude-CLI + Login). Dauer: ~5-10 min beim ersten Mal.
@@ -24,15 +24,15 @@ xattr -cr "/Applications/IS Console.app"
 
 ## Installation (Linux)
 
-1. Download `IS-Console-0.1.1-x64.AppImage` und `setup-linux.sh`
+1. Download `IS-Console-0.1.2-x86_64.AppImage` und `setup-linux.sh`
 2. Setup ausführen:
    ```
    bash setup-linux.sh
    ```
 3. App starten:
    ```
-   chmod +x IS-Console-0.1.1-x64.AppImage
-   ./IS-Console-0.1.1-x64.AppImage
+   chmod +x IS-Console-0.1.2-x86_64.AppImage
+   ./IS-Console-0.1.2-x86_64.AppImage
    ```
 
 ## Erste Schritte
